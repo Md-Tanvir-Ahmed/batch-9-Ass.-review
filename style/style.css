@@ -57,7 +57,37 @@ body{
 .second-section-container{
     width: 802.9px;
     height: 806px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 120px; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.second-section-container h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.second-section-container p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+        font-weight: 500;
+}
+
+.second-section-container h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.image-container img{
+    width: 802.9px;
+    height: 500px;
 }
