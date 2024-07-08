@@ -91,3 +91,202 @@ body{
     width: 802.9px;
     height: 500px;
 }
+
+
+/* midnight party style starts here */
+
+.midnight-party-container{
+    
+    width: 1320px;
+    height: 600px;
+    background-image: url('../new-year-offer-resources/images/Vectorrr.png');
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side-content{
+    width: 50%;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.right-side-content{
+    width: 50%;
+    height: 600px;
+    width: 349.16px;
+    height: 464.65px;
+}
+.left-content-description{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.left-content-ending{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+
+.left-side-content h1{
+    color: rgb(255, 255, 255);
+   font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
+
+.group-pic{
+    width: 349.16px;
+    height: 464.65px;
+}
+
+/* place-time-date style starts here */
+
+.place-time-date-container {
+    margin:0 auto;
+    width: 1320px;
+    height: 432px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 16px;
+
+     background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+     margin-bottom: 15px;
+    
+
+
+}
+
+.ptd-information{
+    text-align: center;
+    
+}
+.ptd-ptd-info {
+    
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 32px;
+     font-weight: 600;
+     width: 549px;
+     height: 168px
+}
+
+.ptd-info-color {
+    color:red;
+}
+
+.place-time-date-container  button {
+    color:white;
+    text:600;
+    
+    
+    width: 167px;
+    height: 56px;
+    border-radius: 8px;
+    border: 0;
+     background: rgb(255, 0, 0);
+}
+
+/* holyday section style starts here */
+
+.holyday-section-container {
+    width:1320px;
+    height:986px;
+    margin: 0 auto;
+    border:2px solid red;
+    margin-top: 30px;
+}
+
+.holyday-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1068px;
+    height: 260px;
+    margin:0 auto;
+}
+
+.holyday-text-container h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.holyday-text-container h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 91px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#holiday{
+    color:red;
+}
+
+.holyday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    position:absolute;
+    top:350%;
+    z-index: 0;
+    
+
+}
+
+.giftbox{
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount{
+  /* Group 83 */
+   position: absolute;
+   width: 305.69px;
+   height: 305.69px;
+   z-index: 1;
+   bottom:30%;
+}
+.girl-pic{
+    position:relative;
+    
+    left: 30%;
+}
